@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Claude Boot Fixer — 修复 claude 命令打不开的一切问题">
+  <style>
+    @keyframes rise {
+      0%   { transform: translateY(0); opacity: 0; }
+      10%  { opacity: 1; }
+      85%  { opacity: 1; }
+      100% { transform: translateY(-175px); opacity: 0; }
+    }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes linein { 0% { opacity: 0; transform: translateY(7px); } 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes shimmer {
+      0%        { transform: translateX(-340px); }
+      65%, 100% { transform: translateX(1280px); }
+    }
+    @keyframes glow { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.75; } }
+    @keyframes blip { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+    .particle { animation: rise 8s ease-in-out infinite; }
+    .cursor   { animation: blink 1.1s steps(1) infinite; }
+    .line1    { animation: linein 0.7s ease-out 0.35s backwards; }
+    .line2    { animation: linein 0.7s ease-out 1.15s backwards; }
+    .line3    { animation: linein 0.7s ease-out 1.95s backwards; }
+    .shine    { animation: shimmer 3.8s ease-in-out 1.0s infinite; }
+    .glowbig  { animation: glow 5s ease-in-out infinite; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.5" stop-color="#131a24"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D97757"/>
+      <stop offset="0.5" stop-color="#FFC9A3"/>
+      <stop offset="1" stop-color="#D97757"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow1">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#1b2431" stroke-width="1"/>
+    </pattern>
+    <clipPath id="titleClip">
+      <text x="600" y="108" text-anchor="middle" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="62" font-weight="800" letter-spacing="5">CLAUDE BOOT FIXER</text>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)" opacity="0.55"/>
+  <ellipse cx="250" cy="80" rx="310" ry="240" fill="url(#glow1)" class="glowbig"/>
+  <ellipse cx="990" cy="370" rx="340" ry="250" fill="url(#glow2)" class="glowbig" style="animation-delay: 1.7s"/>
+
+  <!-- floating particles -->
+  <circle cx="120" cy="360" r="3" fill="#D97757" class="particle" style="animation-delay:0s;animation-duration:8s"/>
+  <circle cx="230" cy="330" r="2.2" fill="#58a6ff" class="particle" style="animation-delay:1.3s;animation-duration:7s"/>
+  <circle cx="360" cy="370" r="2.6" fill="#e6edf3" class="particle" style="animation-delay:2.1s;animation-duration:9s"/>
+  <circle cx="505" cy="345" r="2" fill="#D97757" class="particle" style="animation-delay:3.4s;animation-duration:7.5s"/>
+  <circle cx="700" cy="375" r="2.8" fill="#58a6ff" class="particle" style="animation-delay:0.9s;animation-duration:8.5s"/>
+  <circle cx="845" cy="340" r="2.2" fill="#D97757" class="particle" style="animation-delay:2.7s;animation-duration:7.8s"/>
+  <circle cx="950" cy="360" r="3.2" fill="#e6edf3" class="particle" style="animation-delay:4.2s;animation-duration:9.2s"/>
+  <circle cx="1070" cy="330" r="2.4" fill="#D97757" class="particle" style="animation-delay:1.8s;animation-duration:8.2s"/>
+  <circle cx="1130" cy="370" r="2" fill="#58a6ff" class="particle" style="animation-delay:3s;animation-duration:7.2s"/>
+
+  <!-- title -->
+  <text x="600" y="108" text-anchor="middle" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="62" font-weight="800" letter-spacing="5" fill="url(#titleGrad)">CLAUDE BOOT FIXER</text>
+  <rect class="shine" x="0" y="22" width="340" height="100" fill="url(#shineGrad)" clip-path="url(#titleClip)"/>
+
+  <!-- subtitle -->
+  <text x="600" y="162" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="26" fill="#8b949e">诊断并修复 Claude Code 无法启动的一切问题 · Windows 一条命令原地复活</text>
+
+  <!-- terminal -->
+  <rect x="410" y="198" width="380" height="150" rx="12" fill="#10151c" stroke="#2b3440" stroke-width="1.5"/>
+  <line x1="410" y1="234" x2="790" y2="234" stroke="#1f2733" stroke-width="1"/>
+  <circle cx="432" cy="216" r="5.5" fill="#ff5f57"/>
+  <circle cx="450" cy="216" r="5.5" fill="#febc2e"/>
+  <circle cx="468" cy="216" r="5.5" fill="#28c840"/>
+  <text x="492" y="221" font-family="'Cascadia Code',Consolas,'Courier New',monospace" font-size="13" fill="#6e7681">claude-boot-fixer — PowerShell</text>
+
+  <text x="434" y="263" class="line1" font-family="'Cascadia Code',Consolas,'Courier New',monospace" font-size="18" fill="#e6edf3">$ claude --version</text>
+  <rect class="cursor" x="644" y="247" width="9" height="21" rx="2" fill="#D97757"/>
+  <text x="434" y="300" class="line2" font-family="'Cascadia Code',Consolas,'Courier New',monospace" font-size="18" fill="#3fb950">✓ Claude Code v2.9.0 已就绪</text>
+  <text x="434" y="337" class="line3" font-family="'Cascadia Code',Consolas,'Courier New',monospace" font-size="18" fill="#ffa657">» fix-claude.cmd --danger</text>
+
+  <!-- tagline -->
+  <text x="600" y="400" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="16" fill="#6e7681">Windows 11 · PowerShell · 零依赖 · 零密钥 · 零隐私泄露</text>
+</svg>

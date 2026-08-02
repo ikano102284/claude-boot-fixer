@@ -1,0 +1,5 @@
+interface:
+  display_name: "Claude 启动修复器 / Claude Boot Fixer"
+  short_description: "诊断并修复 claude 命令无法启动、exe 丢失等问题 / Diagnose and fix why the claude command cannot start or the exe goes missing"
+  brand_color: "#D97757"
+  default_prompt: "Use $claude-boot-fixer to fix why the claude command cannot start."
