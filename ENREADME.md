@@ -1,7 +1,8 @@
-<p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-30363D?style=for-the-badge" alt="简体中文"></a>
-  <a href="./"><img src="https://img.shields.io/badge/English-D97757?style=for-the-badge" alt="English"></a>
-</p>
+<div align="center">
+
+[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-30363D?style=for-the-badge)](README.md) [![English](https://img.shields.io/badge/English-D97757?style=for-the-badge)](./)
+
+</div>
 
 <p align="center">
   <a href="./">
@@ -16,30 +17,23 @@
   Windows · PowerShell · Pure scripts · Zero dependencies — one command, back to life.
 </p>
 
-<p align="center">
-  <a href="https://www.microsoft.com/windows"><img src="https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 11"></a>
-  <a href="https://learn.microsoft.com/powershell"><img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"></a>
-  <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"></a>
-  <a href="SKILL.md"><img src="https://img.shields.io/badge/Claude%20Skill-FF6B57?style=for-the-badge" alt="Claude Skill"></a>
-  <a href="https://opensource.org/license/mit"><img src="https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge" alt="MIT License"></a>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="./"><img src="https://img.shields.io/badge/Pure%20Scripts%20%7C%20Zero%20Dependencies-0d1117?style=for-the-badge" alt="Pure Scripts | Zero Dependencies"></a>
-  <a href="./"><img src="https://img.shields.io/badge/Lightweight%20%3C1MB-0d1117?style=for-the-badge" alt="Lightweight &lt;1MB"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/PRs%20Welcome-0d1117?style=for-the-badge" alt="PRs Welcome"></a>
-  <a href="./"><img src="https://img.shields.io/badge/Made%20with%20Love-D97757?style=for-the-badge" alt="Made with Love"></a>
-</p>
+[![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows) [![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell) [![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge)](https://github.com/anthropics/claude-code) [![Claude Skill](https://img.shields.io/badge/Claude%20Skill-FF6B57?style=for-the-badge)](https://code.claude.com/docs/en/skills) [![MIT License](https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge)](https://opensource.org/license/mit)
 
-<p align="center">
-  <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick%20Start-D97757?style=for-the-badge" alt="Quick Start"></a>
-  <a href="#-project-structure"><img src="https://img.shields.io/badge/Project%20Structure-30363D?style=for-the-badge" alt="Project Structure"></a>
-  <a href="#-error-lookup"><img src="https://img.shields.io/badge/Error%20Lookup-5391FE?style=for-the-badge" alt="Error Lookup"></a>
-  <a href="#-faq"><img src="https://img.shields.io/badge/FAQ-8b949e?style=for-the-badge" alt="FAQ"></a>
-  <a href="./"><img src="https://img.shields.io/badge/Give%20a%20Star-3fb950?style=for-the-badge" alt="Give a Star"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/Report%20Issue-E74C3C?style=for-the-badge" alt="Report Issue"></a>
-  <a href="./fork"><img src="https://img.shields.io/badge/Fork-8b949e?style=for-the-badge" alt="Fork"></a>
-</p>
+</div>
+
+<div align="center">
+
+[![Pure Scripts | Zero Dependencies](https://img.shields.io/badge/Pure%20Scripts%20%7C%20Zero%20Dependencies-0d1117?style=for-the-badge)](./) [![Lightweight](https://img.shields.io/badge/Lightweight-0d1117?style=for-the-badge)](./) [![PRs Welcome](https://img.shields.io/badge/PRs%20Welcome-0d1117?style=for-the-badge)](./compare) [![Made with Love](https://img.shields.io/badge/Made%20with%20Love-D97757?style=for-the-badge)](./)
+
+</div>
+
+<div align="center">
+
+[![Quick Start](https://img.shields.io/badge/Quick%20Start-D97757?style=for-the-badge)](#-quick-start) [![Project Structure](https://img.shields.io/badge/Project%20Structure-30363D?style=for-the-badge)](#-project-structure) [![Error Lookup](https://img.shields.io/badge/Error%20Lookup-5391FE?style=for-the-badge)](#-error-lookup) [![FAQ](https://img.shields.io/badge/FAQ-8b949e?style=for-the-badge)](#-faq) [![Give a Star](https://img.shields.io/badge/Give%20a%20Star-3fb950?style=for-the-badge)](./) [![Report Issue](https://img.shields.io/badge/Report%20Issue-E74C3C?style=for-the-badge)](./issues) [![Fork](https://img.shields.io/badge/Fork-8b949e?style=for-the-badge)](./fork)
+
+</div>
 
 <p align="center">
   <sub>
@@ -263,11 +257,11 @@ No. Every secret in this repository appears only as a <code>&lt;your-key&gt;</co
 
 All contributions are welcome — bug reports, feature requests, doc fixes, code, even a single typo:
 
-<p align="center">
-  <a href="./fork"><img src="https://img.shields.io/badge/Fork%20It-30363D?style=for-the-badge" alt="Fork It"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/Open%20an%20Issue-5391FE?style=for-the-badge" alt="Open an Issue"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/Submit%20a%20PR-3fb950?style=for-the-badge" alt="Submit a PR"></a>
-</p>
+<div align="center">
+
+[![Fork It](https://img.shields.io/badge/Fork%20It-30363D?style=for-the-badge)](./fork) [![Open an Issue](https://img.shields.io/badge/Open%20an%20Issue-5391FE?style=for-the-badge)](./issues) [![Submit a PR](https://img.shields.io/badge/Submit%20a%20PR-3fb950?style=for-the-badge)](./compare)
+
+</div>
 
 **A few simple rules:**
 
@@ -284,12 +278,11 @@ All contributions are welcome — bug reports, feature requests, doc fixes, code
 
 ---
 
-<p align="center">
-  <a href="./"><img src="https://img.shields.io/badge/Give%20a%20Star-3fb950?style=for-the-badge" alt="Star"></a>
-  <a href="./fork"><img src="https://img.shields.io/badge/Fork%20It-8b949e?style=for-the-badge" alt="Fork"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/Report%20Issue-E74C3C?style=for-the-badge" alt="Issues"></a>
-  <a href="README.md"><img src="https://img.shields.io/badge/Chinese%20Version-30363D?style=for-the-badge" alt="Chinese Version"></a>
-</p>
+<div align="center">
+
+[![Give a Star](https://img.shields.io/badge/Give%20a%20Star-3fb950?style=for-the-badge)](./) [![Fork It](https://img.shields.io/badge/Fork%20It-8b949e?style=for-the-badge)](./fork) [![Report Issue](https://img.shields.io/badge/Report%20Issue-E74C3C?style=for-the-badge)](./issues) [![Chinese Version](https://img.shields.io/badge/Chinese%20Version-30363D?style=for-the-badge)](README.md)
+
+</div>
 
 <p align="center">
   <sub>Made with ❤️ + ⚡ PowerShell · Every link in this README is repository-relative, so it keeps working after cloning / renaming</sub>

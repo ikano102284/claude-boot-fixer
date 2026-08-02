@@ -1,7 +1,8 @@
-<p align="center">
-  <a href="./"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-D97757?style=for-the-badge" alt="简体中文"></a>
-  <a href="ENREADME.md"><img src="https://img.shields.io/badge/English-30363D?style=for-the-badge" alt="English"></a>
-</p>
+<div align="center">
+
+[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-D97757?style=for-the-badge)](./) [![English](https://img.shields.io/badge/English-30363D?style=for-the-badge)](ENREADME.md)
+
+</div>
 
 <p align="center">
   <a href="./">
@@ -16,30 +17,23 @@
   Windows · PowerShell · 纯脚本 · 零依赖 —— 一条命令，原地复活。
 </p>
 
-<p align="center">
-  <a href="https://www.microsoft.com/windows"><img src="https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 11"></a>
-  <a href="https://learn.microsoft.com/powershell"><img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"></a>
-  <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"></a>
-  <a href="SKILL.md"><img src="https://img.shields.io/badge/Claude%20Skill-FF6B57?style=for-the-badge" alt="Claude Skill"></a>
-  <a href="https://opensource.org/license/mit"><img src="https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge" alt="MIT License"></a>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="./"><img src="https://img.shields.io/badge/%E7%BA%AF%E8%84%9A%E6%9C%AC%20%E9%9B%B6%E4%BE%9D%E8%B5%96-0d1117?style=for-the-badge" alt="纯脚本 零依赖"></a>
-  <a href="./"><img src="https://img.shields.io/badge/%E8%BD%BB%E9%87%8F%E7%BA%A7%20%3C1MB-0d1117?style=for-the-badge" alt="轻量级 &lt;1MB"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/PR%20%E6%AC%A2%E8%BF%8E-0d1117?style=for-the-badge" alt="PR 欢迎"></a>
-  <a href="./"><img src="https://img.shields.io/badge/Made%20with%20Love-D97757?style=for-the-badge" alt="Made with Love"></a>
-</p>
+[![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows) [![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell) [![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge)](https://github.com/anthropics/claude-code) [![Claude Skill](https://img.shields.io/badge/Claude%20Skill-FF6B57?style=for-the-badge)](https://code.claude.com/docs/en/skills) [![MIT License](https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge)](https://opensource.org/license/mit)
 
-<p align="center">
-  <a href="#-快速开始"><img src="https://img.shields.io/badge/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B-D97757?style=for-the-badge" alt="快速开始"></a>
-  <a href="#-项目结构"><img src="https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84-30363D?style=for-the-badge" alt="项目结构"></a>
-  <a href="#-错误速查"><img src="https://img.shields.io/badge/%E9%94%99%E8%AF%AF%E9%80%9F%E6%9F%A5-5391FE?style=for-the-badge" alt="错误速查"></a>
-  <a href="#-常见问题"><img src="https://img.shields.io/badge/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-8b949e?style=for-the-badge" alt="常见问题"></a>
-  <a href="./"><img src="https://img.shields.io/badge/%E7%82%B9%E4%B8%AA%20Star%20%E6%94%AF%E6%8C%81-3fb950?style=for-the-badge" alt="点个 Star 支持"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/%E6%8A%A5%E5%91%8A%E9%97%AE%E9%A2%98-E74C3C?style=for-the-badge" alt="报告问题"></a>
-  <a href="./fork"><img src="https://img.shields.io/badge/Fork-8b949e?style=for-the-badge" alt="Fork"></a>
-</p>
+</div>
+
+<div align="center">
+
+[![纯脚本 零依赖](https://img.shields.io/badge/%E7%BA%AF%E8%84%9A%E6%9C%AC%20%E9%9B%B6%E4%BE%9D%E8%B5%96-0d1117?style=for-the-badge)](./) [![轻量级](https://img.shields.io/badge/%E8%BD%BB%E9%87%8F%E7%BA%A7-0d1117?style=for-the-badge)](./) [![PR 欢迎](https://img.shields.io/badge/PR%20%E6%AC%A2%E8%BF%8E-0d1117?style=for-the-badge)](./compare) [![Made with Love](https://img.shields.io/badge/Made%20with%20Love-D97757?style=for-the-badge)](./)
+
+</div>
+
+<div align="center">
+
+[![快速开始](https://img.shields.io/badge/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B-D97757?style=for-the-badge)](#-快速开始) [![项目结构](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84-30363D?style=for-the-badge)](#-项目结构) [![错误速查](https://img.shields.io/badge/%E9%94%99%E8%AF%AF%E9%80%9F%E6%9F%A5-5391FE?style=for-the-badge)](#-错误速查) [![常见问题](https://img.shields.io/badge/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-8b949e?style=for-the-badge)](#-常见问题) [![点个 Star 支持](https://img.shields.io/badge/%E7%82%B9%E4%B8%AA%20Star%20%E6%94%AF%E6%8C%81-3fb950?style=for-the-badge)](./) [![报告问题](https://img.shields.io/badge/%E6%8A%A5%E5%91%8A%E9%97%AE%E9%A2%98-E74C3C?style=for-the-badge)](./issues) [![Fork](https://img.shields.io/badge/Fork-8b949e?style=for-the-badge)](./fork)
+
+</div>
 
 <p align="center">
   <sub>
@@ -261,11 +255,11 @@ Windows 安全中心 → 保护历史记录 → 恢复文件，并为 <code>%CLA
 
 欢迎一切形式的贡献 —— 报 bug、提需求、改文档、写代码，哪怕只是一个错别字：
 
-<p align="center">
-  <a href="./fork"><img src="https://img.shields.io/badge/Fork%20%E4%B8%80%E4%BB%BD-30363D?style=for-the-badge" alt="Fork 一份"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/%E6%96%B0%E5%BB%BA%20Issue-5391FE?style=for-the-badge" alt="新建 Issue"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/%E6%8F%90%20PR%20%E5%90%88%E5%B9%B6-3fb950?style=for-the-badge" alt="提 PR 合并"></a>
-</p>
+<div align="center">
+
+[![Fork 一份](https://img.shields.io/badge/Fork%20%E4%B8%80%E4%BB%BD-30363D?style=for-the-badge)](./fork) [![新建 Issue](https://img.shields.io/badge/%E6%96%B0%E5%BB%BA%20Issue-5391FE?style=for-the-badge)](./issues) [![提 PR 合并](https://img.shields.io/badge/%E6%8F%90%20PR%20%E5%90%88%E5%B9%B6-3fb950?style=for-the-badge)](./compare)
+
+</div>
 
 **几条简单约定：**
 
@@ -282,12 +276,11 @@ Windows 安全中心 → 保护历史记录 → 恢复文件，并为 <code>%CLA
 
 ---
 
-<p align="center">
-  <a href="./"><img src="https://img.shields.io/badge/%E7%82%B9%E4%B8%AA%20Star%20%E6%94%AF%E6%8C%81-3fb950?style=for-the-badge" alt="Star"></a>
-  <a href="./fork"><img src="https://img.shields.io/badge/Fork%20%E4%B8%80%E4%BB%BD-8b949e?style=for-the-badge" alt="Fork"></a>
-  <a href="./issues"><img src="https://img.shields.io/badge/%E6%8A%A5%E5%91%8A%E9%97%AE%E9%A2%98-E74C3C?style=for-the-badge" alt="Issues"></a>
-  <a href="ENREADME.md"><img src="https://img.shields.io/badge/English%20%E7%89%88%E6%9C%AC-30363D?style=for-the-badge" alt="English Version"></a>
-</p>
+<div align="center">
+
+[![点个 Star 支持](https://img.shields.io/badge/%E7%82%B9%E4%B8%AA%20Star%20%E6%94%AF%E6%8C%81-3fb950?style=for-the-badge)](./) [![Fork 一份](https://img.shields.io/badge/Fork%20%E4%B8%80%E4%BB%BD-8b949e?style=for-the-badge)](./fork) [![报告问题](https://img.shields.io/badge/%E6%8A%A5%E5%91%8A%E9%97%AE%E9%A2%98-E74C3C?style=for-the-badge)](./issues) [![English 版本](https://img.shields.io/badge/English%20%E7%89%88%E6%9C%AC-30363D?style=for-the-badge)](ENREADME.md)
+
+</div>
 
 <p align="center">
   <sub>Made with ❤️ + ⚡ PowerShell · 本 README 全部链接均为仓库内相对链接，克隆 / 改名后依然可点</sub>
