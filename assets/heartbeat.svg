@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60" width="260" height="60" role="img" aria-label="心跳动画 — 永远在线">
+  <style>
+    @keyframes beat { to { stroke-dashoffset: 0; } }
+    @keyframes dotmove { from { transform: translateX(14px); } to { transform: translateX(244px); } }
+    @keyframes glowpulse { 0%, 100% { opacity: 0.12; } 50% { opacity: 0.3; } }
+    .trace { stroke-dasharray: 300; stroke-dashoffset: 300; animation: beat 2.4s linear infinite; }
+    .tip { animation: dotmove 2.4s linear infinite; }
+    .glowbig { animation: glowpulse 3s ease-in-out infinite; }
+  </style>
+  <rect width="260" height="60" rx="30" fill="#10151c" stroke="#2b3440" stroke-width="1"/>
+  <circle class="glowbig" cx="130" cy="30" r="26" fill="#3fb950"/>
+  <path class="trace" d="M14 30 H58 L68 30 L78 18 L88 42 L98 26 L106 30 H200 L214 30 H246" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle class="tip" cx="14" cy="30" r="3.5" fill="#3fb950"/>
+</svg>

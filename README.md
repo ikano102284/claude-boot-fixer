@@ -49,10 +49,13 @@
 
 ---
 
+<p align="center"><img src="assets/wave-divider.svg" alt="动画分割线" width="100%"></p>
+
 ## 🌟 开源宣言
 
 <p align="center">
   <img src="assets/pulse.svg" alt="状态：永远修复">
+  <img src="assets/heartbeat.svg" alt="心跳动画 — 永远在线">
 </p>
 
 > 献给每一个在深夜敲下 `claude`，却只得到一句 **「无法识别」** 的你。
@@ -70,6 +73,8 @@
 ---
 
 ## ✨ 特性一览
+
+<p align="center"><img src="assets/gear.svg" alt="齿轮动画" width="150"></p>
 
 <table>
   <tr>
@@ -104,6 +109,7 @@
 
 <p align="center">
   <img src="assets/stats.svg" alt="数据一览：自动修复成功率 99% · 覆盖 12+ 类场景 · 永久免费">
+  <img src="assets/progress-ring.svg" alt="99% 圆环动画" width="170">
 </p>
 
 | 维度 | 🛠 本工具 | 🙅 手动修复 |
@@ -148,6 +154,8 @@ claude --version
 ---
 
 ## 🛠 三种启动方案
+
+<p align="center"><img src="assets/lightning.svg" alt="危险模式闪电动画" width="140"></p>
 
 让输入 `claude` 时直接走稳定启动器，而不是裸调 `claude.exe`：
 
@@ -203,6 +211,11 @@ claude --version
 | 📊 数据条 | [assets/stats.svg](assets/stats.svg) | 动画统计条 |
 | 🛡 安全盾 | [assets/shield.svg](assets/shield.svg) | 隐私安全动画（描边自绘 + 对勾打勾） |
 | 🚀 火箭 | [assets/rocket.svg](assets/rocket.svg) | 快速开始动画（火焰 + 烟雾 + 漂浮） |
+| 💓 心跳 | [assets/heartbeat.svg](assets/heartbeat.svg) | 心电图动画（永远在线） |
+| ⚙️ 齿轮 | [assets/gear.svg](assets/gear.svg) | 旋转齿轮动画 |
+| ⚡ 闪电 | [assets/lightning.svg](assets/lightning.svg) | 危险模式闪电动画 |
+| 🎯 圆环 | [assets/progress-ring.svg](assets/progress-ring.svg) | 99% 进度环动画 |
+| 🌊 分割线 | [assets/wave-divider.svg](assets/wave-divider.svg) | 流动光点分割线 |
 | 🇬🇧 英文版 | [ENREADME.md](ENREADME.md) | English Version · Read this repo in English |
 
 ---
@@ -275,6 +288,8 @@ Windows 安全中心 → 保护历史记录 → 恢复文件，并为 <code>%CLA
 [MIT License](https://opensource.org/license/mit) —— 自由使用、自由修改、自由分发。做你想做的，唯一的要求是保留作者声明。
 
 ---
+
+<p align="center"><img src="assets/wave-divider.svg" alt="动画分割线" width="100%"></p>
 
 <div align="center">
 

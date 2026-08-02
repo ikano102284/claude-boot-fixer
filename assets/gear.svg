@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180" role="img" aria-label="齿轮动画 — 自动运转">
+  <style>
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes spinrev { to { transform: rotate(-360deg); } }
+    @keyframes glowpulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.7; } }
+    .spinner { transform-box: fill-box; transform-origin: center; animation: spin 12s linear infinite; }
+    .halo { transform-box: fill-box; transform-origin: center; animation: spinrev 20s linear infinite; }
+    .glowbig { animation: glowpulse 4s ease-in-out infinite; }
+  </style>
+  <defs>
+    <radialGradient id="gGlow">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gearGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF9A63"/>
+      <stop offset="1" stop-color="#D97757"/>
+    </linearGradient>
+  </defs>
+  <circle cx="90" cy="90" r="88" fill="url(#gGlow)" class="glowbig"/>
+  <circle class="halo" cx="90" cy="90" r="78" fill="none" stroke="#FFC9A3" stroke-width="1.5" stroke-dasharray="3 12" opacity="0.6"/>
+  <g class="spinner">
+    <rect x="82" y="18" width="16" height="20" rx="4" fill="url(#gearGrad)"/>
+    <rect x="82" y="18" width="16" height="20" rx="4" fill="url(#gearGrad)" transform="rotate(45 90 90)"/>
+    <rect x="82" y="18" width="16" height="20" rx="4" fill="url(#gearGrad)" transform="rotate(90 90 90)"/>
+    <rect x="82" y="18" width="16" height="20" rx="4" fill="url(#gearGrad)" transform="rotate(135 90 90)"/>
+    <rect x="82" y="18" width="16" height="20" rx="4" fill="url(#gearGrad)" transform="rotate(180 90 90)"/>
+    <rect x="82" y="18" width="16" height="20" rx="4" fill="url(#gearGrad)" transform="rotate(225 90 90)"/>
+    <rect x="82" y="18" width="16" height="20" rx="4" fill="url(#gearGrad)" transform="rotate(270 90 90)"/>
+    <rect x="82" y="18" width="16" height="20" rx="4" fill="url(#gearGrad)" transform="rotate(315 90 90)"/>
+    <circle cx="90" cy="90" r="52" fill="url(#gearGrad)"/>
+    <circle cx="90" cy="90" r="26" fill="#10151c"/>
+    <circle cx="90" cy="90" r="12" fill="#FFC9A3"/>
+  </g>
+</svg>

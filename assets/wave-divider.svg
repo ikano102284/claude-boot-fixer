@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="900" height="40" role="img" aria-label="动画分割线">
+  <style>
+    @keyframes travel { from { transform: translateX(-160px); } to { transform: translateX(920px); } }
+    .light { animation: travel 3.2s linear infinite; }
+    .light2 { animation: travel 3.2s linear 1.6s infinite; }
+    @keyframes blip { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+    .dot { animation: blip 2.2s ease-in-out infinite; }
+  </style>
+  <defs>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFC9A3" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="880" height="20" rx="10" fill="#10151c" stroke="#2b3440" stroke-width="1"/>
+  <line x1="30" y1="20" x2="870" y2="20" stroke="#212a36" stroke-width="3" stroke-linecap="round"/>
+  <rect class="light" x="0" y="16" width="160" height="8" rx="4" fill="url(#lineGrad)"/>
+  <rect class="light2" x="0" y="16" width="160" height="8" rx="4" fill="url(#lineGrad)"/>
+  <circle class="dot" cx="450" cy="20" r="3" fill="#D97757" style="animation-delay:0s"/>
+  <circle class="dot" cx="450" cy="20" r="6" fill="none" stroke="#D97757" stroke-width="1.5" style="animation-delay:0.7s"/>
+</svg>

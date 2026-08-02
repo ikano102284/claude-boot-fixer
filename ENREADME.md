@@ -49,10 +49,13 @@
 
 ---
 
+<p align="center"><img src="assets/wave-divider.svg" alt="Animated divider" width="100%"></p>
+
 ## 🌟 The Manifesto
 
 <p align="center">
   <img src="assets/pulse.svg" alt="Status: always fixed">
+  <img src="assets/heartbeat.svg" alt="Heartbeat — always online">
 </p>
 
 > To everyone who typed `claude` late at night and got nothing but **"not recognized"** —
@@ -70,6 +73,8 @@
 ---
 
 ## ✨ Features
+
+<p align="center"><img src="assets/gear.svg" alt="Spinning gear" width="150"></p>
 
 <table>
   <tr>
@@ -104,6 +109,7 @@
 
 <p align="center">
   <img src="assets/stats.svg" alt="Auto-fix rate 99% · 12+ scenarios covered · 100% free forever">
+  <img src="assets/progress-ring.svg" alt="99% progress ring" width="170">
 </p>
 
 | Dimension | 🛠 This tool | 🙅 Doing it by hand |
@@ -150,6 +156,8 @@ claude --version
 ---
 
 ## 🛠 Three Launch Options
+
+<p align="center"><img src="assets/lightning.svg" alt="Danger mode lightning" width="140"></p>
 
 Make typing `claude` go through the stable launcher instead of calling `claude.exe` directly:
 
@@ -205,6 +213,11 @@ Bonus typo-fix: `Set-Alias cluade claude` — even a mistyped command gets you a
 | 📊 Stats | [assets/stats.svg](assets/stats.svg) | Animated statistics bars |
 | 🛡 Shield | [assets/shield.svg](assets/shield.svg) | Security animation (self-drawing shield + check mark) |
 | 🚀 Rocket | [assets/rocket.svg](assets/rocket.svg) | Quick-start animation (flames + smoke + hover) |
+| 💓 Heartbeat | [assets/heartbeat.svg](assets/heartbeat.svg) | ECG animation (always online) |
+| ⚙️ Gear | [assets/gear.svg](assets/gear.svg) | Spinning gear animation |
+| ⚡ Lightning | [assets/lightning.svg](assets/lightning.svg) | Danger-mode lightning animation |
+| 🎯 Ring | [assets/progress-ring.svg](assets/progress-ring.svg) | 99% progress-ring animation |
+| 🌊 Divider | [assets/wave-divider.svg](assets/wave-divider.svg) | Flowing-light divider |
 | 🇨🇳 Chinese version | [README.md](README.md) | 简体中文版本 · 以中文阅读本项目 |
 
 ---
@@ -277,6 +290,8 @@ All contributions are welcome — bug reports, feature requests, doc fixes, code
 [MIT License](https://opensource.org/license/mit) — use it freely, modify it freely, share it freely. Do whatever you want, just keep the attribution.
 
 ---
+
+<p align="center"><img src="assets/wave-divider.svg" alt="Animated divider" width="100%"></p>
 
 <div align="center">
 
