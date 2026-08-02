@@ -124,6 +124,8 @@
 
 ## 🚀 Quick Start
 
+<p align="center"><img src="assets/rocket.svg" alt="Rocket launch animation" width="200"></p>
+
 **Install as a Claude Code Skill** (drop this folder into your skills directory):
 
 ```powershell
@@ -207,9 +209,13 @@ Bonus typo-fix: `Set-Alias cluade claude` — even a mistyped command gets you a
 | 🎬 Banner | [assets/banner.svg](assets/banner.svg) | Animated hero banner |
 | 💚 Pulse | [assets/pulse.svg](assets/pulse.svg) | Status indicator light |
 | 📊 Stats | [assets/stats.svg](assets/stats.svg) | Animated statistics bars |
+| 🛡 Shield | [assets/shield.svg](assets/shield.svg) | Security animation (self-drawing shield + check mark) |
+| 🚀 Rocket | [assets/rocket.svg](assets/rocket.svg) | Quick-start animation (flames + smoke + hover) |
 | 🇨🇳 Chinese version | [README.md](README.md) | 简体中文版本 · 以中文阅读本项目 |
 
 ---
+
+<p align="center"><img src="assets/shield.svg" alt="Security shield animation" width="220"></p>
 
 ## 🔒 Privacy & Security
 

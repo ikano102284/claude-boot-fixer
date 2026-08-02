@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="安全盾 — 零密钥 · 零泄露">
+  <style>
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes glowpulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.8; } }
+    @keyframes blip { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+
+    .ringspin  { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+    .ringspin2 { transform-box: fill-box; transform-origin: center; animation: spin 22s linear infinite reverse; }
+    .shieldfill { animation: fadein 0.6s ease-out 0.2s backwards; }
+    .shieldpath { stroke-dasharray: 640; stroke-dashoffset: 640; animation: draw 1.6s ease-out 0.5s forwards; }
+    .checkpath  { stroke-dasharray: 120; stroke-dashoffset: 120; animation: draw 0.7s ease-out 1.8s forwards; }
+    .glowbig    { animation: glowpulse 4s ease-in-out infinite; }
+    .lockglow   { animation: blip 2.2s ease-in-out infinite; }
+  </style>
+  <defs>
+    <radialGradient id="bgGlow">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="150" cy="150" r="140" fill="url(#bgGlow)" class="glowbig"/>
+  <circle class="ringspin" cx="150" cy="150" r="112" fill="none" stroke="#D97757" stroke-width="2" stroke-dasharray="10 14" opacity="0.7"/>
+  <circle class="ringspin2" cx="150" cy="150" r="98" fill="none" stroke="#FFC9A3" stroke-width="1.5" stroke-dasharray="4 18" opacity="0.5"/>
+
+  <path class="shieldfill" d="M150 58 L228 90 V165 Q228 222 150 252 Q72 222 72 165 V90 Z" fill="#1b2431" opacity="0.9"/>
+  <path class="shieldpath" d="M150 58 L228 90 V165 Q228 222 150 252 Q72 222 72 165 V90 Z" fill="none" stroke="#D97757" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle class="lockglow" cx="150" cy="160" r="26" fill="#3fb950" opacity="0.14"/>
+  <path class="checkpath" d="M112 152 L140 180 L192 126" fill="none" stroke="#3fb950" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

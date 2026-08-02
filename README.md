@@ -124,6 +124,8 @@
 
 ## 🚀 快速开始
 
+<p align="center"><img src="assets/rocket.svg" alt="火箭发射动画" width="200"></p>
+
 **安装为 Claude Code Skill**（把本文件夹放进技能目录）：
 
 ```powershell
@@ -205,9 +207,13 @@ claude --version
 | 🎬 横幅 | [assets/banner.svg](assets/banner.svg) | 首页动画横幅 |
 | 💚 呼吸灯 | [assets/pulse.svg](assets/pulse.svg) | 状态指示灯 |
 | 📊 数据条 | [assets/stats.svg](assets/stats.svg) | 动画统计条 |
+| 🛡 安全盾 | [assets/shield.svg](assets/shield.svg) | 隐私安全动画（描边自绘 + 对勾打勾） |
+| 🚀 火箭 | [assets/rocket.svg](assets/rocket.svg) | 快速开始动画（火焰 + 烟雾 + 漂浮） |
 | 🇬🇧 英文版 | [ENREADME.md](ENREADME.md) | English Version · Read this repo in English |
 
 ---
+
+<p align="center"><img src="assets/shield.svg" alt="安全盾动画" width="220"></p>
 
 ## 🛡 隐私与安全声明
 
